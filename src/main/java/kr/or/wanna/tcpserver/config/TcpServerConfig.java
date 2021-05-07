@@ -23,7 +23,7 @@ import kr.or.wanna.tcpserver.seriallzer.TcpOutputSerializer;
 @Configuration
 public class TcpServerConfig {
 	@Autowired
-	private CommandHandler commandHandler;
+	private CommandHandler commandHandler; 
 	
 	@Bean
 	public AbstractServerConnectionFactory serverConnectionFactory() {
